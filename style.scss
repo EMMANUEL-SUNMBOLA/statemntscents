@@ -39,6 +39,14 @@ nav {
       width: 40%;
       height: 100px;
       outline: 1px solid $altgrey;
+      button{
+        width: 40px;
+        height: 10px;
+        color: red;
+        a{
+            color: red;
+        }
+      }
     }
   }
 }
@@ -55,7 +63,11 @@ footer {
 @media (max-width: 600px){
     .products{
         .gridcont{
+            margin:20px 0px 10px 20%;
             grid-template-columns: repeat(2,1fr);
         }
+    }
+    footer{
+        margin-top: 2000px;
     }
 }
