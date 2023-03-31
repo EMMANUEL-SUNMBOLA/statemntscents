@@ -65,12 +65,13 @@ footer {
 
 @media (max-width: 600px){
     .products{
+        border: 1px solid salmon;
         .gridcont{
-            margin:20px 0px 10px 10%;
+            margin:20px 0px 10px 4%;
             grid-template-columns: repeat(2,1fr);
         }
     }
     footer{
-        margin-top: 2000px;
+        margin-top: 430vh;
     }
 }
