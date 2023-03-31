@@ -54,6 +54,9 @@ nav {
   }
 }
 footer {
+    display: flex;
+    align-items: center;
+    
     font-family: sans-serif;
   font-size: 8px;
   margin-top: 100px;
