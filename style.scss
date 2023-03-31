@@ -36,9 +36,12 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     gap: 15%;
     div {
-      width: 40%;
+      width: 50%;
       height: 100px;
       outline: 1px solid $altgrey;
+      img{
+        width: 100%;
+      }
       button{
         width: 40px;
         height: 10px;
