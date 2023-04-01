@@ -36,15 +36,19 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     gap: 15%;
     div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       width: 90%;
       height: fit-content;
       // outline: 1px solid $altgrey;
       img{
         width: 100%;
       }
-      p{
-        width: 100px;
-        height: 50px;
+      button{
+        width: 50px;
+        height: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -52,6 +56,7 @@ nav {
         color: #ffffff;
         transition: all .3s ease-in-out;
         border: 1px solid #000;
+        border-radius: 5px;
         &:hover{
           background-color: $grey;
           color: $altgrey;
@@ -69,16 +74,15 @@ nav {
 footer {
     display: flex;
     align-items: center;
-
     font-family: sans-serif;
-  font-size: 8px;
-  margin-top: 100px;
-  width: 100%;
-  background-color: black;
-  height: 100px;
-  color: #fff;
-  font-style: italic;
-  margin-top: 800px;
+    font-size: 8px;
+    margin-top: 100px;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    color: #fff;
+    font-style: italic;
+    margin-top: 900px;
 }
 
 @media (max-width: 600px){
