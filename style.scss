@@ -23,15 +23,15 @@ nav {
 }
 
 .products {
-    margin: 100px auto;
-    text-align: center;
-    // display: flex;
-    // justify-content:space-around ;
-    // align-items: ;
-    width: 100%;
-    margin: 100px auto;
-    .gridcont {
-        margin:20px 0px 10px 1%;
+  margin: 100px auto;
+  text-align: center;
+  // display: flex;
+  // justify-content:space-around ;
+  // align-items: ;
+  width: 100%;
+  margin: 100px auto;
+  .gridcont {
+    margin: 20px 0px 10px 1%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15%;
@@ -43,57 +43,58 @@ nav {
       width: 90%;
       height: fit-content;
       // outline: 1px solid $altgrey;
-      img{
+      img {
         width: 100%;
       }
-      button{
-        width: 50px;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: $altgrey;
-        color: #ffffff;
-        transition: all .3s ease-in-out;
-        border: 1px solid #000;
-        border-radius: 5px;
-        &:hover{
-          background-color: $grey;
-          color: $altgrey;
-        }
-        a{
-          width: 40px;
-          height: 10px;
-            text-decoration: none;
+      a {
+        width: 40px;
+        height: 10px;
+        text-decoration: none;
+        button {
+          width: 50px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $altgrey;
+          color: #ffffff;
+          transition: all 0.3s ease-in-out;
+          border: 1px solid #000;
+          border-radius: 5px;
+          &:hover {
+            background-color: $grey;
+            color: $altgrey;
+          }
+
+        
         }
       }
-      
     }
   }
 }
 footer {
-    display: flex;
-    align-items: center;
-    font-family: sans-serif;
-    font-size: 8px;
-    margin-top: 100px;
-    width: 100%;
-    background-color: black;
-    height: 100px;
-    color: #fff;
-    font-style: italic;
-    margin-top: 900px;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 8px;
+  margin-top: 100px;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  color: #fff;
+  font-style: italic;
+  margin-top: 900px;
 }
 
-@media (max-width: 600px){
-    .products{
-        // border: 1px solid salmon;
-        .gridcont{
-            margin:20px 0px 10px 4%;
-            grid-template-columns: repeat(2,1fr);
-        }
+@media (max-width: 600px) {
+  .products {
+    // border: 1px solid salmon;
+    .gridcont {
+      margin: 20px 0px 10px 4%;
+      grid-template-columns: repeat(2, 1fr);
     }
-    footer{
-        margin-top: 300vh;
-    }
+  }
+  footer {
+    margin-top: 300vh;
+  }
 }
