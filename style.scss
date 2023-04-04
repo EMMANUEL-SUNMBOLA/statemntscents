@@ -35,14 +35,16 @@ nav {
     margin: 20px 0px 10px 1%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15%;
-    div {
+    grid-column-gap: 15%;
+    grid-row-gap: 6%;
+    .card {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       width: 90%;
       height: fit-content;
+      // margin-top: -2000px;
       // outline: 1px solid $altgrey;
       img {
         width: 100%;
@@ -84,7 +86,7 @@ footer {
   height: 100px;
   color: #fff;
   font-style: italic;
-  margin-top: 1300px;
+  margin-top: 700px;
 }
 
 @media (max-width: 600px) {
@@ -93,9 +95,13 @@ footer {
     .gridcont {
       margin: 20px 0px 10px 4%;
       grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 6%;
+      .card{
+        margin-top: -100px;
+      }
     }
   }
   footer {
-    margin-top: 800vh;
+    margin-top: 250vh;
   }
 }
