@@ -31,6 +31,10 @@ nav {
   // align-items: ;
   width: 100%;
   margin: 100px auto;
+  h3{
+    text-decoration: wavy underline;
+    // color: red  ;
+  }
   .gridcont {
     margin: 20px 0px 10px 1%;
     display: grid;
@@ -48,6 +52,9 @@ nav {
       // outline: 1px solid $altgrey;
       img {
         width: 100%;
+      }
+      .card-title{
+        text-transform: capitalize;
       }
       a {
         // width: 40px;
@@ -92,6 +99,9 @@ footer {
 @media (max-width: 600px) {
   .products {
     // border: 1px solid salmon;
+    h3{
+      margin-bottom: 30%;
+    }
     .gridcont {
       margin: 20px 0px 10px 4%;
       grid-template-columns: repeat(2, 1fr);
