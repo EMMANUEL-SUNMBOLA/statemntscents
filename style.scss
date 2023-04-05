@@ -22,6 +22,15 @@ nav {
   }
 }
 
+.hear {
+  text-align: center;
+  .ex {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .products {
   margin: 100px auto;
   text-align: center;
@@ -31,7 +40,7 @@ nav {
   // align-items: ;
   width: 100%;
   margin: 100px auto;
-  h3{
+  h3 {
     text-decoration: wavy underline;
     // color: red  ;
   }
@@ -51,7 +60,7 @@ nav {
       img {
         width: 100%;
       }
-      .card-title{
+      .card-title {
         text-transform: capitalize;
       }
       a {
@@ -82,14 +91,14 @@ footer {
 @media (max-width: 650px) {
   .products {
     // border: 1px solid salmon;
-    h3{
+    h3 {
       margin-bottom: 32%;
     }
     .gridcont {
       margin: 20px 0px 10px 4%;
       grid-template-columns: repeat(2, 1fr);
       grid-row-gap: 7%;
-      .card{
+      .card {
         margin-top: -100px;
       }
     }
