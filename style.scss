@@ -6,6 +6,7 @@ $altgrey: #333333;
   box-sizing: border-box;
   outline: none;
   font-family: Georgia, "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -89,6 +90,9 @@ footer {
 }
 
 @media (max-width: 650px) {
+  body{
+    background-color: red;
+  }
   .products {
     // border: 1px solid salmon;
     h3 {
